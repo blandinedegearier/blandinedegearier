@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti:400,700|Press+Start+2P');
+
+
+ body{
+  font-family: 'Athiti', sans-serif;
+ }
+
+
+* {
+  box-sizing: border-box;
+}
+
+#cv{
+width: 100%;
+
+
+}
+
+.nav{
+  background-color:#222;
+  padding:15px;
+  text-align:center;
+
+
+}
+ 
+.nav a {
+  color: #eee;
+}
+
+.head a{
+  font-size: 1em;
+}
+
+button{
+padding:6px 0 6px 0;
+background:#222;
+color:#eee;
+width:30px;
+border:1px solid #ccc;
+float: right;
+}
+
+body{
+  background-color: #222;
+}
+
+#logo{
+width: 25px;
+float: left;
+}
+
+
+
+.head {
+  width:100%;
+  padding:0 100px;
+  background-color:#222;
+  text-align: center;
+
+}
+
+.main1 {
+  width: 50%;
+  float: left;
+  background-color:#222;
+
+}
+
+.main1 p{
+  margin: 1em;
+}
+
+.main1 h1{
+  margin-left: .4em;
+}
+
+.main1 hr{
+  width: 97%;
+}
+
+.main2 {
+  width: 50%;
+  display: inline-block;
+  border-left: 2px solid white;
+padding-left: 1em;
+}
+
+.comp{
+float: left;
+}
+
+
+h2{
+
+  color: #eee;
+  line-height: 1em;
+  font-weight: 700;
+
+}
+
+h1{
+
+  color: #ff9999;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: left;
+}
+
+
+
+p{
+float: left;
+line-height: 1em;
+color: #eee;
+text-align: left;
+}
+
+hr{
+  color: white;
+  width: 100%;
+  display: inline-block;
+}
+
+i{
+  font-size: .8em;
+}
+
+b{
+  font-size: 1.2em;
+  color: #ffcccc;
+}
+
+a{
+    color: #ff9999;
+
+}
+
+#insta{
+  width: 20px;
+  float: right;
+  margin-right: 1em;
+}
+
+@media only screen and (max-width:620px) {
+  /* smartphones */
+.main1 {
+  width:100%;
+  border-bottom: 2px solid white;
+  }
+
+  .main1 hr{
+  width: 100%;
+}
+
+
+  .main2{
+  width: 100%;
+  border-left: none;
+
+
+}
+
+p{
+float: left;
+width: 60%;
+font-size: .8em;
+}
+#insta{
+  width: 20px;
+  float: right;
+  margin-right: .2em;
+
+}
+
+}
